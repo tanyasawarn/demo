@@ -1,0 +1,63 @@
+body {
+   background-image: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+
+.dashboard {
+   flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+ }
+
+.dashboard h2 {
+  display: flex;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard h2:hover {
+  color: #666;
+}
+
+.dashboard h2 svg {
+  margin-left: 0.5rem;
+}
+
+.dashboard ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.dashboard label {
+  margin-left: 0.5rem;
+}
+
+.dashboard button {
+  margin-top: 1rem;
+  margin-left: .5rem;
+   border: none;
+  border-radius: 4px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #9f5ccc;
+    border: 1px solid #9f5ccc;
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+  
+}
+
+.dashboard button:hover {
+  background-color:blanchedalmond;
+}
